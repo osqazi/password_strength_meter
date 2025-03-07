@@ -41,7 +41,7 @@ st.header("Assignment 3 - Created by Owais Qazi")
 st.write("Enter your password to check its Strength.")
 st.write("It will also helps you to to create a strong password.")
 password = st.text_input("Enter your desired Password: ", type="password")
-if st.button("Check Strenth"):
+if st.button("Check Strength"):
     st.header(check(password))
     
 
