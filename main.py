@@ -37,7 +37,7 @@ unsafe_allow_html=True
 
 
 st.title("Password Strength Meter / Checker")
-st.header("Assignment 3 - Created by Owais Qazi")
+st.header("Project 2 - Created by Owais Qazi")
 st.write("Enter your password to check its Strength.")
 st.write("It will also helps you to to create a strong password.")
 password = st.text_input("Enter your desired Password: ", type="password")
